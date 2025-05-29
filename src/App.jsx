@@ -5,6 +5,7 @@ import Header from './Components/Header'
 import Hero from './Components/Hero'
 import Services from './Components/Services'
 import About from './Components/About'
+import Specialist from './Components/Specialist'
 
 const App = () => {
   useEffect (() => {
@@ -18,6 +19,7 @@ const App = () => {
       <Hero />
       <Services />
       <About />
+      <Specialist />
     </div>
   )
 }
