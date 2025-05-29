@@ -20,27 +20,23 @@ const Header = () => {
 
   return (
       <header className='bg-gradient-to-r from-gray-300 to-gray-500 sticky top-0 z-50'>
-         <div className='container mx-auto px-4 py-4 flex justify-between items-center'>
+         <div className='max-w-screen-xl mx-auto px-4 py-4 flex justify-between items-center'>
             <a href="/" className='flex items-center focus:outline-none focus:ring-2 focus:ring-gray-700 rounded'>
                <h1 className='text-2xl font-bold text-blue-800'>Glidex Clinic</h1>
             </a>
 
-            <nav aria-label='Primary navigation'>
-               <ul className='hidden md:flex space-x-8' >
-                  {navLinks.map((link, index)=> (
-                     <li key={index}>
-                        <a href={link.href} 
-                        className='text-gray-700 hover:text-blue-600 transition-colors duration-200 focus:outline-none focus:ring-blue-600 focus:rounded'>
-                           {link.label}
-                        </a>
-                     </li>
-                  ))
-
-                  }
-               </ul>
+            <nav className='hidden md:flex space-x-4 lg:space-x-6' aria-label='Primary navigation'>
+               {navLinks.map((link, index)=> (
+                  <a 
+                     key={index}
+                     href={link.href} 
+                     className='text-gray-700 hover:text-blue-600 transition-colors duration-200 focus:outline-none focus:ring-blue-600 focus:rounded'>
+                     {link.label}
+                  </a>
+               ))}
             </nav>
 
-            <button
+            <button 
                className='md:hidden p-2 focus:outline-none focus:ring-2 focus:ring-blue-600 rounded'
                onClick={toggleMenu}
                aria-label='Toggle Menu'

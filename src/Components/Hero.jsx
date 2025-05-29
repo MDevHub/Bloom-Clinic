@@ -12,18 +12,18 @@ const Hero = () => {
 
   return (
       <section id='home' className='relative overflow-hidden bg-gradient-to-r from-gray-300 to-gray-500'>
-         <article className='container mx-auto px-4 py-14 md:py-20 flex flex-col md:flex-row items-center'>
-            <div className='md:w-1/2 mb-10 md:mb-0'>
+         <article className='max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 py-14 md:py-20 flex flex-col-reverse lg:flex-row items-center gap-10 lg:gap-20'>
+            <div className='w-full lg:w-1/2 text-center lg:text-left'>
                <hgroup data-aos='fade-up' data-aos-delay='500'>
-                  <h1 className='text-4xl md:text-5xl lg:text-6xl font-bold text-gray-700 mb-4'>
+                  <h1 className='text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-700 mb-4'>
                      Enhance Your Natural <mark className='text-blue-700 bg-transparent'>Beauty</mark>
                   </h1>
-                  <p className='text-lg text-gray-700 mb-8 max-w-lg'>
+                  <p className='text-base sm:text-lg text-gray-700 mb-8 max-w-lg mx-auto lg:max-0'>
                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia quo enim error, aliquam laborum magnam perspiciatis pariatur obcaecati nemo labore a necessitatibus, ut voluptate neque asperiores temporibus, quod sunt cupiditate?
                   </p>
                </hgroup>
 
-               <nav data-aos='fade-up' data-aos-delay='600' className='flex flex-col sm:flex-row gap-4 mb-8'>
+               <nav data-aos='fade-up' data-aos-delay='600' className='flex flex-col sm:flex-row justify-center lg:justify-start gap-4  mb-8'>
                   <a 
                      href="#appointment"
                      className='bg-blue-600 hover:bg-blue-800 text-white px-8 py-3 rounded-full text-center transition shadow-lg '
