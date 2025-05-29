@@ -109,7 +109,7 @@ const Specialist = () => {
                <span className='absolute -bottom-20 -right-20 w-60 h-60 rounded-full bg-blue-200 opacity-20' aria-hidden='true'></span>
                <div className='relative z-10'>
                   <h3 className='text-2xl md:text-3xl font-bold text-gray-800 mb-6'>
-                     Ready to Consult With our Specialists ? 
+                     Ready to Consult With our Specialists? 
                   </h3>
                   <p className='text-lg text-gray-600 mb-8 max-w-2xl mx-auto'> mollitia odit dolorem nisi iste molestias. Ipsa nostrum accusantium distinctio perspiciatis consequatur aperiam beatae adipisci.</p>
                   <nav className='flex flex-col sm:flex-row justify-center gap-4'>
