@@ -11,7 +11,7 @@ const Hero = () => {
    ];
 
   return (
-      <section className='relative overflow-hidden bg-gradient-to-r from-gray-300 to-gray-500'>
+      <section id='home' className='relative overflow-hidden bg-gradient-to-r from-gray-300 to-gray-500'>
          <article className='container mx-auto px-4 py-14 md:py-20 flex flex-col md:flex-row items-center'>
             <div className='md:w-1/2 mb-10 md:mb-0'>
                <hgroup data-aos='fade-up' data-aos-delay='500'>

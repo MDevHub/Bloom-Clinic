@@ -28,7 +28,7 @@ const Services = () => {
 
 return (
    <section
-      ii='services'
+      id='services'
       className='py-20 overflow-hidden bg-gradient-to-r from-gray-300 to-gray-500'
       aria-labelledby='services-heading'
    >
