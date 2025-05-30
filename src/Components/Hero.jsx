@@ -19,7 +19,7 @@ const Hero = () => {
                      Enhance Your Natural <mark className='text-blue-700 bg-transparent'>Beauty</mark>
                   </h1>
                   <p className='text-base sm:text-lg text-gray-700 mb-8 max-w-lg mx-auto lg:max-0'>
-                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia quo enim error, aliquam laborum magnam perspiciatis pariatur obcaecati nemo labore a necessitatibus, ut voluptate neque asperiores temporibus, quod sunt cupiditate?
+                     Discover personalized treatments that highlight your natural beauty. At <span className='text-blue-700 font-semibold'>Bloom Clinic</span>, we combine modern aesthetics with expert care to help you look and feel your best.
                   </p>
                </hgroup>
 

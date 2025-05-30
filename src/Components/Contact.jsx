@@ -29,7 +29,7 @@ const Contact = () => {
          title: 'Email',
          content: (
             <p className='text-gray-600'>
-               <a href="#" className='hover:text-blue-600'>info@glidexclinic.com</a> <br />
+               <a href="#" className='hover:text-blue-600'>info@bloomclinic.com</a> <br />
                <a href="#" className='hover:text-blue-600'>appoin@gmail.com</a> 
             </p>
          )
@@ -65,7 +65,7 @@ const Contact = () => {
                   Contact <span className='text-blue-600'>Our Clinic</span>
                </h1>
                <p className='text-lg text-gray-600 max-w-2xl mx-auto relative z-10'>
-                  facere praesentium nam, iste explicabo veniam autem. Est, consequatur!
+                   Have questions or ready to book an appointment? Get in touch with our friendly team—we’re here to help.
                </p>
          </header> 
          <main className='flex flex-col lg:flex-row gap-12'>

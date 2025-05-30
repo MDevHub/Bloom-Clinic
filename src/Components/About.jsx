@@ -14,15 +14,15 @@ const About = () => {
 const approachItems = [
    {
       icon: <FaHeart className='text-blue-800' />,
-      text: 'Lorem ipsum dolor sit aliquid totam sit nulla eveniet fugiat dignissimos laudantium velit quo, perspiciatis at perferendis.',
+      text: 'We care deeply about your wellbeing and strive to provide treatments that nurture both body and mind.',   
    },
    {
       icon: <FaUserMd className='text-blue-800' />,
-      text: 'Lorem ipsum dolor sit aliquid totam sit nulla eveniet fugiat dignissimos laudantium velit quo, perspiciatis at perferendis.',
+      text: 'Our experienced specialists offer personalized care to ensure the best results tailored to your needs.',
    },
    {
       icon: <FaClinicMedical className='text-blue-800' />,
-      text: 'Lorem ipsum dolor sit aliquid totam sit nulla eveniet fugiat dignissimos laudantium velit quo, perspiciatis at perferendis.',
+      text: 'Using state-of-the-art medical technology, we deliver safe and effective cosmetic treatments you can trust.',
    },
 ]
 
@@ -57,10 +57,10 @@ const approachItems = [
             <div data-aos='fade-up' data-aos-delay='600' className='lg:w-7/12'>
                <header>
                   <h2 className='text-3xl md:text-4xl font-bold text-gray-800 mb-6'>
-                     About <span className='text-blue-600'>Glidex Clinic</span>
+                     About <span className='text-blue-600'>Bloom Clinic</span>
                   </h2> 
                   <p className='text-lg text-gray-600 mb-6'>
-                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam iste aspernatur saepe. Inventore dolores obcaecati voluptates qui eligendi blanditiis neque id! Sunt voluptas laudantium harum architecto maxime dolorem repellat sapiente.
+                     At <span className='text-blue-700 font-semibold'>Bloom Clinic,</span> we combine expert care with the latest technology to help you look and feel your best. Our dedicated team focuses on personalized treatments designed to enhance your natural beauty and boost confidence in a comfortable, welcoming environment.                  
                   </p>
                </header>
                <section className='m-8'>
@@ -106,7 +106,7 @@ const approachItems = [
                  <div className='relative z-10'>
                      <h3 className='text-2xl font-bold text-gray-800 mb-6 '>Our Mission</h3>
                      <blockquote className='text-lg text-gray-700 mb-6'>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi natus animi nulla sed similique distinctio blanditiis consequuntur voluptatum itaque qui odio ipsam consequatur nesciunt eaque, repellat et. Adipisci, rerum quas!
+                         At <span className='text-blue-700 font-semibold'>Bloom Clinic,</span>our mission is to help every client feel confident and radiant in their natural beauty. We combine expert care with advanced techniques to deliver results that are safe, subtle, and empowering.
                      </blockquote>
                      <figure className='flex items-center'>
                         <div className='w-12 h-12 rounded-full bg-gray-300 flex items-center justify-center mr-4'>

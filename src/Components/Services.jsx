@@ -6,22 +6,22 @@ const Services = () => {
    const services = [
       {  icon: <FaClinicMedical className='text-4xl text-blue-600' aria-hidden= 'true'/>,
          title: "Facelift Procedures",
-         desc : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit assumenda odit cumque dicta expedita ipsa, recusandae incidunt neque, doloremque  cupiditastrum debitis totam? Nihil!',
+         desc: "Restore youthful contours and reduce visible signs of aging with our expert facelift procedures, performed with precision and care.",
          link: "#facelift"
       },
        {  icon: <FaUserMd className='text-4xl text-blue-600' aria-hidden= 'true'/>,
          title: "Botox and Fillers",
-         desc : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit assumenda odit cumque dicta expedita ipsa, recusandae incidunt neque, doloremque  cupiditastrum debitis totam? Nihil!',
+         desc: "Smooth out fine lines and wrinkles or restore lost volume with safe, non-surgical Botox and dermal filler treatments tailored to your features.",
          link: "#botox"
       },
        {  icon: <FaRegSmile className='text-4xl text-blue-600' aria-hidden= 'true'/>,
          title: "Laser Treatment",
-         desc : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit assumenda odit cumque dicta expedita ipsa, recusandae incidunt neque, doloremque  cupiditastrum debitis totam? Nihil!',
+         desc: "Achieve clearer, smoother skin with advanced laser treatments designed to reduce scars, blemishes, and signs of aging—safe and effective with minimal downtime.",
          link: "#laser"
       },
        {  icon: <FaSyringe className='text-4xl text-blue-600' aria-hidden= 'true'/>,
          title: "Body Colouring",
-         desc : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit assumenda odit cumque dicta expedita ipsa, recusandae incidunt neque, doloremque  cupiditastrum debitis totam? Nihil!',
+         desc: "Even out your skin tone and enhance your natural glow with safe, non-invasive body colouring treatments tailored to your unique complexion.",
          link: "#colouring"
       },
    ]
@@ -39,7 +39,7 @@ return (
             </h2> 
 
             <p className='text-lg text-gray-600 max-w-2xl mx-auto'>
-               Lorem ipsum adipisicing elit. Commodi et nihil, magni laborum vitae deserunt officiis dolor aperiam iste magnam ullam perferendis praesentium perspiciatis error ab. Natus, officia! Doloribus, eum?
+              From advanced skin care to non-surgical enhancements, our services are designed to deliver real, visible results with comfort and care.
             </p>
          </header>
 

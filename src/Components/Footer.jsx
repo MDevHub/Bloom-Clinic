@@ -34,7 +34,7 @@ const Footer = () => {
       {
          icon: <MdEmail className='text-blue-500 text-xl mt-1 mr-4 flex-shrink-0' />,
          content: <a href="#" className='text-gray-400 hover:text-blue-500 transition'>
-            info@glidexclinic.com
+            info@bloomclinic.com
          </a>
       },
       {
@@ -57,10 +57,10 @@ const Footer = () => {
             <section className='lg:col-span-2 '>
                <header className='flex items-center mb-6'>
                   <FaClinicMedical className='text-3xl text-blue-500 mr-3' aria-hidden='true'/>
-                  <h2 className='text-2xl font-bold'>Glidex Clinic</h2>
+                  <h2 className='text-2xl font-bold'>Bloom Clinic</h2>
                </header>
                <p className='text-gray-400 mb-6'>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi, ducimus incidunt atque odit optio sunt laudantium consequuntur, corrupti consectetur suscipit fugit velit, laboriosam minus repudiandae illum eius architecto saepe aliquam.
+                 At <span className='text-blue-700 font-semibold'>Bloom Clinic, </span>we’re committed to helping you look and feel your best. With a team of experienced professionals and a range of advanced treatments, we provide personalized care in a welcoming environment you can trust.
                </p>
                <nav aria-label='Social media links'>
                   <ul className='flex space-x-4'>
@@ -137,7 +137,7 @@ const Footer = () => {
          </section>
          <footer className='pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center'>
             <p className='text-gray-500 text-sm mb-4 md:mb-0'>
-               &copy; {new Date().getFullYear()} Glidex Clinic. All right reserved.
+               &copy; {new Date().getFullYear()} Bloom Clinic. All right reserved.
             </p>
             <nav aria-label='Legal links'>
                <ul className='flex space-x-6'>

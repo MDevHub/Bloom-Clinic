@@ -12,7 +12,7 @@ const Specialist = () => {
          name: 'Dr. Mary Williams',
          role: 'Plastic Surgeon',
          image: SpecialistsImg,
-         bio: 'Lorem ipsum dolor sit amet numquam aperiam. Ad, accusantium maxime tenetus voluptate,  porro in amet!',
+         bio: 'Dr. Mary Williams is a board-certified plastic surgeon with over 15 years of experience specializing in facial rejuvenation.',
          rating: 5,
          specialties: ['Facelifts', 'Rhinoplasty', 'Biopharoplasty']
       },
@@ -21,7 +21,7 @@ const Specialist = () => {
          name: 'Dr. Elenma Rodig',
          role: 'Aesthetic Physician',
          image: SpecialistsImg2,
-         bio: 'Lorem ipsum dolor sit amet numquam aperiam. Ad, accusantium maxime tenetus voluptate,  porro in amet!',
+         bio: 'Dr. Elenma Rodig is an experienced aesthetic physician with a passion for non-surgical enhancements. She combines advanced techniques.',
          rating: 4,
          specialties: ['CoolSculpting', 'Ultheraphy', 'Thread Lifts']
       },
@@ -30,7 +30,7 @@ const Specialist = () => {
          name: 'Dr. Micheal Chan',
          role: 'Damatologist',
          image: SpecialistsImg1,
-         bio: 'Lorem ipsum dolor sit amet numquam aperiam. Ad, accusantium maxime tenetus voluptate,  porro in amet!',
+         bio: 'Dr. Micheal Chan is a skilled dermatologist with a strong background in advanced skin and facial treatments.He is well knows and one of the best.',
          rating: 5,
          specialties: ['Laser Treatment', 'Rhinoplasty', 'Biopharoplasty']
       },
@@ -53,7 +53,7 @@ const Specialist = () => {
                   Meet Our <span className='text-blue-700'>Expert Item</span>
                </h2>
                <p className='text-lg text-gray-600 max-w-2xl mx-auto relative z-10'>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos nobis dolorum vel maxime praesentium? Sit minus hic odio!
+                   Our dedicated team of specialists brings years of experience and a passion for excellence to every treatment. You're in the hands of professionals who truly care.
                </p>
                <span className='absolute -bottom-6 right-1/4 w-16 h-16 rounded-full bg-gray-300 opacity-20 z-0' aria-hidden='true'>
 
@@ -111,7 +111,7 @@ const Specialist = () => {
                   <h3 className='text-2xl md:text-3xl font-bold text-gray-800 mb-6'>
                      Ready to Consult With our Specialists? 
                   </h3>
-                  <p className='text-lg text-gray-600 mb-8 max-w-2xl mx-auto'> mollitia odit dolorem nisi iste molestias. Ipsa nostrum accusantium distinctio perspiciatis consequatur aperiam beatae adipisci.</p>
+                  <p className='text-lg text-gray-600 mb-8 max-w-2xl mx-auto'>  Whether you have questions or you're ready to begin your treatment journey, our experienced team is here to guide you every step of the way.</p>
                   <nav className='flex flex-col sm:flex-row justify-center gap-4'>
                      <a 
                         href="#"

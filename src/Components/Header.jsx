@@ -22,7 +22,7 @@ const Header = () => {
       <header className='bg-gradient-to-r from-gray-300 to-gray-500 sticky top-0 z-50'>
          <div className='max-w-screen-xl mx-auto px-4 py-4 flex justify-between items-center'>
             <a href="/" className='flex items-center focus:outline-none focus:ring-2 focus:ring-gray-700 rounded'>
-               <h1 className='text-2xl font-bold text-blue-800'>Glidex Clinic</h1>
+               <h1 className='text-2xl font-bold text-blue-800'>Bloom Clinic</h1>
             </a>
 
             <nav className='hidden md:flex space-x-4 lg:space-x-6' aria-label='Primary navigation'>
